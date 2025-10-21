@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-basic{
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-basic">
+    <header class=" sticky top-0 z-50 shadow-sm backdrop-blur-xl">
+        <div class="bg-[#F9F7F3] bg-opacity-80 border-0">
+            <nav class="lg:max-w-screen-xl mx-auto lg:py-6  py-3 px-6 lg:pb-14">
+                <div class="navbar ">
+                  <div class="navbar-start">
+                    <button id="homes" class="btn bg-[#B4F461] rounded-lg px-8 py-2.5 text-xl">Home</button>
+                    </div>
+                    <div class="navbar-center hidden lg:flex space-x-2.5">
+                     <img src="assets/logo.png" alt="">
+                     <h3 class="font-semibold text-xl">Donate Bangladesh</h3>
+                    </div>
+                    <div class="navbar-end space-x-2.5">
+                        <img src="assets/coin.png" alt="">
+                        <p class="text-xl font-bold">6000</p>
+                        <p class="text-xl font-bold">BDT</p>
+                    </div>
+                  </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <main class="lg:max-w-screen-xl mx-auto pt-6 pb-14 px:2 lg:px-0 space-y-4">
+        <h1 class="font-bold text-4xl px-6 py-16">
+            Important FAQ <span class="font-bold text-4xl text-red-500 border border-collapse border-r-8 border-t-4 border-l-2 border-b-4 p-4 rounded-full border-red-500"> ?? </span>
+        </h1>
+        <div class="collapse collapse-arrow bg-base-200 px-2 py-4">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+              <p>The DOM is a programming interface for web documents.</p>
+            </div>
+          </div>
+        <div class="collapse collapse-arrow bg-base-200 px-2 py-4">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>Use an Id,class,CSS selector or CSS selector All etc.  </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 px-2 py-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+            <div class="collapse-content">
+              <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 px-2 py-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>I can manipulate an element's attributes with getAttribute(), setAttribute(), and removeAttribute(), and styles with element.style.property in the DOM.</p>
+            </div>
+          </div>
+    </main>
+    
+    <script>
+        document.getElementById('homes').addEventListener('click', function(){
+        window.location.href = "index.html";
+    })
+    </script>
+</body>
+</html>

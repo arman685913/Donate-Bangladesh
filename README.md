@@ -1,11 +1,11 @@
 # Donate Bangladesh
 
-*Live Website:* [https://arman685913.github.io/Donate-Bangladesh/](https://arman685913.github.io/Donate-Bangladesh/)  
-*Repository:* [https://github.com/arman685913/Donate-Bangladesh](https://github.com/arman685913/Donate-Bangladesh) 
+**Live Website:** [https://arman685913.github.io/Donate-Bangladesh/](https://arman685913.github.io/Donate-Bangladesh/)  
+**Repository:** [https://github.com/arman685913/Donate-Bangladesh](https://github.com/arman685913/Donate-Bangladesh) 
 
 A web-based donation platform designed to raise awareness and support for urgent humanitarian causes in Bangladesh. The project highlights real crises such as floods and social movements, encouraging people to contribute and make a difference.
 
----
+``
 
 ## Features
 - Campaign Highlights – Showcases ongoing relief efforts (e.g., flood relief in Noakhali & Feni, support for quota protest victims).  
@@ -20,7 +20,7 @@ A web-based donation platform designed to raise awareness and support for urgent
 - Frontend: HTML, CSS (Tailwind), JavaScript  
 - Design: Figma (Final.fig)  
 - Hosting: GitHub Pages  
-```
+``
 ---
 
 ## Project Structure
@@ -35,7 +35,7 @@ Donate-Bangladesh/
 │── style.js           # Styling logic
 │── tailwind.config.js # Tailwind CSS configuration
 │── Final.fig          # Figma design file
-`
+```
 
 ---
 ---
@@ -57,9 +57,10 @@ Simply open index.html in your browser to view the project.
 ---
 
 ## Author
-```
+``
 *Arman*  
 - GitHub: [@arman685913](https://github.com/arman685913)  
 - Live Project: [Donate Bangladesh](https://arman685913.github.io/Donate-Bangladesh/)  
 ---
 ```
+
